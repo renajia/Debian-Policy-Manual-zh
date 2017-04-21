@@ -24,9 +24,36 @@ The debian-policy package also includes the file upgrading-checklist.txt.gz whic
 
 # 作者和维护者
 
+本手册最初是由Ian Jackson于1996年编写的，当时的文档名字是"Debian GNU/Linux Policy Manual". 在1996年11月27日，由David A. Morris进行了修订。1997年3月15号， Christian Schwarz 添加了新的内容并于1997年4月到7月间进行了重构。 Christoph Lameter 贡献了 "Web Standard". Julian Gilbey 在2001年做了大规模重构。
+
+从1998年9月开始， 本文由debian-policy mailiing list负责维护。任何一个在经过讨论并取得maillist共识后提议就会被添加到本手册。 针对本文档最终的编辑工作是由文档维护组进行。下面是当前的维护者：
+Russ Allbery 
+Bill Allombert 
+Andrew McMillan 
+Manoj Srivastava 
+Colin Watson 
+
+本文作者尽量避免笔误或者其他错误，但这种问题可能无法完全避免。如果发现有此类问题，或者有意见、建议、批评等，请发送邮件给debian-policy@lists.debian.org , 或者通过debian-policy包提交bug report。
+
+请勿就本文的修改问题单独联系作者或者维护者本人。
 
 
 # 相关文档资料
+除了本手册外，还有其他的一些文档也有助于读者更好的理解Debian的一些策略和过程。
+
+其他的“子策略”文档可参见: 
+File System Structure, Section 9.1.1 
+Virtual packages, Section 3.6 
+Menus, Section 9.6 
+Perl programs and modules, Section 11.9 
+Prompting in maintainer scripts, Section 3.9.1 
+Emacs lisp programs, Section 11.10 
+
+此外，Debian开发者手册也提供了一些策略。这个文档向Debian的开发者描述开发过程以及一些资源，但是这部分并不规范，而是也包含了一些策略之外的内容，例如开发者最佳实践。
+
+Debian开发者手册可以在developers-reference包里找到。您也可以从Debian网站的/doc/developers-reference/下找到。  
+最后，Debian-policy包中使用和其他测试文档类似的方法维护了一份可机读的copyright文件。Use of this format is optional. 
+
 
 
 # 术语定义
