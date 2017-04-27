@@ -1,5 +1,5 @@
-
-# 范围
+# 关于本手册
+## 范围
 本手册意在为debian发行版提供策略需求。包含了Debian archive文件的结构和内容以及操作系统的一些设计问题，同时也规定了包含在Debian发行版中的每一个包所必须要满足的技术上的要求。
 
 本手册同样也描述了和创建Debian包相关的一些policy。但是它并不是一份描述如何打包的导览文件，也不用于描述打包系统的行为，而是尝试去定义一些开发者必须要了解的包管理系统的接口。
@@ -15,14 +15,14 @@
 即便是编译一个包用于其它的发布方式或者仅仅本地使用，本手册中的大部分内容也是非常有用的。
 udebs (stripped-down binary packages used by the Debian Installer)可以不遵从本手册的要求。详细信息请查阅  Debian Installer internals manual 。
 
-# 文档新版本
+## 文档新版本
 This manual is distributed via the Debian package debian-policy (packages.debian.org http://packages.debian.org/debian-policy). 
 
 The current version of this document is also available from the Debian web mirrors at /doc/debian-policy/. ( www.debian.org http://www.debian.org/doc/debian-policy/) Also available from the same directory are several other formats: policy.html.tar.gz (http://www.debian.org/doc/debian-policy/policy.html.tar.gz), policy.pdf.gz (http://www.debian.org/doc/debian-policy/policy.pdf.gz) and policy.ps.gz (http://www.debian.org/doc/debian-policy/policy.ps.gz). 
 
 The debian-policy package also includes the file upgrading-checklist.txt.gz which indicates policy changes between versions of this document. 
 
-# 作者和维护者
+## 作者和维护者
 
 本手册最初是由Ian Jackson于1996年编写的，当时的文档名字是"Debian GNU/Linux Policy Manual". 在1996年11月27日，由David A. Morris进行了修订。1997年3月15号， Christian Schwarz 添加了新的内容并于1997年4月到7月间进行了重构。 Christoph Lameter 贡献了 "Web Standard". Julian Gilbey 在2001年做了大规模重构。
 
@@ -38,7 +38,7 @@ Colin Watson
 请勿就本文的修改问题单独联系作者或者维护者本人。
 
 
-# 相关文档资料
+## 相关文档资料
 除了本手册外，还有其他的一些文档也有助于读者更好的理解Debian的一些策略和过程。
 
 其他的“子策略”文档可参见: 
